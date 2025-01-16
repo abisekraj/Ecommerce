@@ -12,5 +12,6 @@ public class GlobalExceptionHandler {
 public String handleException(Exception ex)
 {
 	return "Internal server error : "+ex.getMessage();
+	//add
 }
 }
